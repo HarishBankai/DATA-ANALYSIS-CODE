@@ -62,3 +62,7 @@ print(np.ones((2,3)))
 # Create array of zeros with shape defined by a list
 print("Array of zeros with shape defined by a list [[1,2],[3,4]]:")   
 print(np.zeros((2,3)))
+
+# Repeat elements of an array
+arr = ['Harish', 1, 2]
+print(np.repeat(arr,3))
