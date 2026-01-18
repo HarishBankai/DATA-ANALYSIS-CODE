@@ -1,6 +1,7 @@
 import pandas as pd  
 import numpy as np
 
+#Data Creation: A sample DataFrame containing a few NaN values is created.
 data = {
     'X': [1, 2, np.nan, 4 , 5] ,
     'Y': [np.nan, np.nan, 10, 6 , 9] , 
@@ -15,14 +16,14 @@ print(df)
 df.isnull().sum()
 print("Number of missing values in each column:\n", df.isnull().sum())
 
-# Drop rows with any missing values
+# Dropping Rows with NaNs: Any row that contains a NaN value is dropped using df.dropna()
 df_dropna_rows = df.dropna()
 print("\nDataFrame after dropping rows with any missing values:\n", df_dropna_rows)
 
-# Drop columns with any missing values
+# Dropping Columns with NaNs: Any column that contains a NaN is dropped using df.dropna(axis=1)
 df_dropna_columns = df.dropna(axis=1)
 print("\nDataFrame after dropping columns with any missing values:\n", df_dropna_columns)
 
-# Drop columns with any missing values in specific columns
+# Removing Rows with NaNs from Particular Columns: We only drop rows using df.dropna(subset=['Z']) if the designated columns (‘Z') have NaN values.
 df_dropna_specific = df.dropna(subset=['Z'])
 print("\nDataFrame after dropping columns with any missing values in specific columns:\n", df_dropna_specific)
