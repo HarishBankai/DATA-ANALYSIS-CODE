@@ -27,3 +27,5 @@ print("\nDataFrame after dropping columns with any missing values:\n", df_dropna
 # Removing Rows with NaNs from Particular Columns: We only drop rows using df.dropna(subset=['Z']) if the designated columns (‘Z') have NaN values.
 df_dropna_specific = df.dropna(subset=['Z'])
 print("\nDataFrame after dropping columns with any missing values in specific columns:\n", df_dropna_specific)
+
+#Output : Each dropna() call's output displays the DataFrame with rows or columns deleted in accordance with the predefined criteria. Depending on the quantity and position of NaN values in the dataset, this aids in determining how to handle missing data.
