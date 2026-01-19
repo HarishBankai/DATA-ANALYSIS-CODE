@@ -26,3 +26,5 @@ df_melted = pd.melt(
     value_name='Sales')
 print("\nMelted DataFrame(Long Format): ")
 print(df_melted)
+
+plt.figure(figsize=(10,10))
