@@ -1,5 +1,6 @@
 import pandas as pd  
-import numpy as np  
+import numpy as np 
+import matplotlib.pyplot as plt 
 
 data = {
     "Product" : ['A', 'B', 'C'],
@@ -26,5 +27,3 @@ df_melted = pd.melt(
     value_name='Sales')
 print("\nMelted DataFrame(Long Format): ")
 print(df_melted)
-
-plt.figure(figsize=(10,10))
