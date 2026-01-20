@@ -40,7 +40,7 @@ The focus of this repository is to demonstrate proficiency in the entire Data Sc
 | Project Name | Description | Tools Used |
 | :--- | :--- | :--- |
 | **Exploratory Data Analysis (EDA)** | Analyzed a real-world dataset to uncover trends and correlations. | Pandas, Seaborn |
-| **Data Cleaning Challenge** | Processed raw, messy data into a clean format ready for analysis. | Pandas, RegEx |
+| **Data Cleaning Challenge** | Processed raw, messy data into a clean format ready for analysis. | Pandas |
 | **Statistical Summary** | Applied descriptive statistics to summarize large datasets. | NumPy, Scipy |
 
 ## 🎓 Certification
