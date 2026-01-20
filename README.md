@@ -1,6 +1,6 @@
 # 📊 Data Analysis Bootcamp: Master Data Science Skills
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.14.2-blue?style=flat&logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Library-Pandas-150458?style=flat&logo=pandas)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/Library-NumPy-013243?style=flat&logo=numpy)](https://numpy.org/)
 [![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-orange?style=flat)](https://matplotlib.org/)
