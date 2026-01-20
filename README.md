@@ -11,7 +11,7 @@ This repository contains the coursework, coding exercises, and projects complete
 The focus of this repository is to demonstrate proficiency in the entire Data Science pipeline—from data cleaning and manipulation to statistical analysis and visualization.
 
 ## 🛠️ Technologies & Tools
-* **Language:** Python 3.x
+* **Language:** Python 3.14.2
 * **Core Libraries:**
     * `Pandas` (Data Manipulation & Cleaning)
     * `NumPy` (Numerical Computing & Vectorization)
